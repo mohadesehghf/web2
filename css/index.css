@@ -2,18 +2,11 @@
     background: #fff5ec;
 }
 
-.icon {
-    width: 60px;
-    height: 60px;
-    line-height: 60px;
-    font-size: 50px;
-    margin-bottom: 20px;
-    color: #dc965a;
-}
 
 .feature-box-01 {
     background-color: #fff;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    
 }
 
 .feature-box-01:hover div,
@@ -47,7 +40,7 @@
     color: white;
 }
 
-.ghf-border::after{
+.ghf-border::after {
     border-bottom: 1px solid white;
     content: " ";
     display: block;
@@ -56,11 +49,11 @@
     transition: all 400ms linear 0s;
 }
 
-.ghf-border:hover::after{
+.ghf-border:hover::after {
     transform: scale(1);
 }
 
-@media screen and (max-width:575px){
+@media screen and (max-width:575px) {
     .top-style {
         position: absolute;
         width: 200px;
@@ -68,44 +61,82 @@
         left: -50px;
         color: #dc965a;
         visibility: hidden;
-       
     }
-  
+    .icon {
+        /*  width: 60px;
+          height: 60px;
+          */line-height: 60px;
+          font-size: 50px;
+          margin-bottom: 20px;
+          color: #dc965a;
+          text-align: center;
+      }
+      .ghf-header{
+      text-align: center;
+      
+      }
+      .ghf-body{
+          text-align: left;
+      }
 }
 
-@media screen and (min-width:576px) and (max-width:767px){
+@media screen and (min-width:576px) and (max-width:767px) {
     .top-style {
         position: absolute;
         width: 250px;
         top: 50px;
         left: -50px;
         color: #dc965a;
-       
     }
-  
-    
-
+    .icon {
+        /*  width: 60px;
+          height: 60px;
+          */line-height: 60px;
+          font-size: 50px;
+          margin-bottom: 20px;
+          color: #dc965a;
+          text-align: center;
+      }
+      .ghf-header{
+      text-align: center;
+      
+      }
+      .ghf-body{
+          text-align: left;
+      }
 }
 
-@media screen and (min-width:768px) and (max-width:991px){
-    .custom-last-line{
+@media screen and (min-width:768px) and (max-width:991px) {
+    .custom-last-line {
         text-align-last: center;
-
     }
     .top-style {
         visibility: hidden;
-       
     }
-   
     .bottom-style {
-             visibility: hidden;
-    }  
+        visibility: hidden;
+    }
+    .icon {
+        /*  width: 60px;
+          height: 60px;
+          */line-height: 60px;
+          font-size: 50px;
+          margin-bottom: 20px;
+          color: #dc965a;
+          text-align: center;
+      }
+      .ghf-header{
+      text-align: center;
+      
+      }
+      .ghf-body{
+          text-align: left;
+      }
 }
 
-@media screen and (min-width:992px) and (max-width:1199px){
-    .ghf-negative-margin{
+@media screen and (min-width:992px) and (max-width:1199px) {
+    .ghf-negative-margin {
         margin-left: -63px;
-        
     }
     .top-style {
         position: absolute;
@@ -113,20 +144,33 @@
         top: 50px;
         left: -50px;
         color: #dc965a;
-       
     }
-  
     .bottom-style {
         position: absolute;
         width: 300px;
         bottom: -10px;
         right: 0px;
         color: #dc965a;
-    }   
+    }
+    .icon {
+          width: 60px;
+          height: 60px;
+          line-height: 60px;
+          font-size: 50px;
+          margin-bottom: 20px;
+          color: #dc965a;
+          text-align: center;
+      }
+      .ghf-header{
+      text-align: left;
+            }
+      .ghf-body{
+          text-align: left;
+      }
 }
 
-@media screen and (min-width:1200px) and (max-width:1399px){
-    .ghf-negative-margin{
+@media screen and (min-width:1200px) and (max-width:1399px) {
+    .ghf-negative-margin {
         margin-left: -63px;
     }
     .top-style {
@@ -135,7 +179,6 @@
         top: 50px;
         left: -50px;
         color: #dc965a;
-       
     }
     .bottom-style {
         position: absolute;
@@ -143,12 +186,28 @@
         bottom: -10px;
         right: 0px;
         color: #dc965a;
-    }  
-    
+    }
+    .icon {
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+        font-size: 50px;
+        margin-bottom: 20px;
+        color: #dc965a;
+        text-align: center;
+    }
+    .ghf-header{
+    text-align: left;
+          }
+    .ghf-body{
+        text-align: left;
+    }
+
+
 }
 
-@media screen and (min-width:1400px){
-    .ghf-negative-margin{
+@media screen and (min-width:1400px) {
+    .ghf-negative-margin {
         margin-left: -63px;
     }
     .top-style {
@@ -157,33 +216,41 @@
         top: 50px;
         left: -50px;
         color: #dc965a;
-       
     }
-
     .bottom-style {
         position: absolute;
         width: 400px;
         bottom: -10px;
         right: 0px;
         color: #dc965a;
-    } 
-    
+    }
+    .icon {
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+        font-size: 50px;
+        margin-bottom: 20px;
+        color: #dc965a;
+        text-align: center;
+    }
+    .ghf-header{
+    text-align: left;
+          }
+    .ghf-body{
+        text-align: left;
+    }
+
 }
 
-.ghf-nav{
+.ghf-nav {
     background-image: url(../images/bg-3.jpg);
-       background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        height: 100vh;
-    
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
 }
 
-.ghf-pos
-{
+.ghf-pos {
     position: absolute;
-   
-
 }
-
